@@ -1,7 +1,7 @@
 let gif;
 
 function preload (){
-gif = load Image ('assets/Leventon.gif');
+gif = load Image ('assets/ALeventon_Final copy.gif');
 }
 
 
@@ -21,7 +21,7 @@ function draw() {//runs in a loop
   for (var y = 0; y<windowWidth; y=y+sideLen){//loop to create a row of squares in the y direction
 
   for (var x=0; x<windowWidth; x=x+sideLen){//loop to create a row of squares in the x direction
-  image (gif, x, y, sideLen, sideLen);  
+  image (gif, x, y, sideLen, sideLen);
   }
   }
 
