@@ -25,7 +25,7 @@ h1{
 }
 
 p{
-    display: inline; background: green;
+    display: inline; background: lightgreen;
     position: absolute;
     font-size: 0.875em;
     left: 50%;
